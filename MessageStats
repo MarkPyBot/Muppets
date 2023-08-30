@@ -6,9 +6,9 @@ from .. import loader, utils
   
   
 @loader.tds 
-class MessageStatsMod(loader.Module): 
+class MessageStatMod(loader.Module): 
      """Показывает статистику сообщений в текущем чате""" 
-    strings = {"name": "MessageStats"} 
+    strings = {"name": "MessageStat"} 
   
     def __init__(self): 
         self.name = self.strings["name"] 
@@ -26,7 +26,7 @@ class MessageStatsMod(loader.Module):
                 self.all_time = (await self._client.get_messages(dialog, limit=1))[0].date.date() 
                 break 
   
-    async def statscmd(self, message: types.Message): 
+    async def statcmd(self, message: types.Message): 
          """Показать статистику сообщений""" 
         await utils.answer(message, f"<b>GgСчитаю сообщения...</b>") 
         day_count = week_count = month_count = all_count = 0 
