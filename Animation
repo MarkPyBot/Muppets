@@ -2,6 +2,98 @@ import random
 from .. import utils, loader
 from asyncio import sleep
 
+{
+  "csv": null,
+  "csvError": null,
+  "dependabotInfo": {
+    "showConfigurationBanner": False,
+    "configFilePath": null,
+    "networkDependabotPath": "/MarkPyBot/Muppets/network/updates",
+    "dismissConfigurationNoticePath": "/settings/dismiss-notice/dependabot_configuration_notice",
+    "configurationNoticeDismissed": null,
+    "repoAlertsPath": "/MarkPyBot/Muppets/security/dependabot",
+    "repoSecurityAndAnalysisPath": "/MarkPyBot/Muppets/settings/security_analysis",
+    "repoOwnerIsOrg": False,
+    "currentUserCanAdminRepo": False
+  },
+  "displayName": "Animation",
+  "displayUrl": "https://github.com/MarkPyBot/Muppets/blob/main/Animation?raw=true",
+  "headerInfo": {
+    "blobSize": "5.86 KB",
+    "deleteInfo": {
+      "deleteTooltip": "You must be signed in to make or propose changes"
+    },
+    "editInfo": {
+      "editTooltip": "You must be signed in to make or propose changes"
+    },
+    "ghDesktopPath": "https://desktop.github.com",
+    "gitLfsPath": null,
+    "onBranch": True,
+    "shortPath": "a3d05db",
+    "siteNavLoginPath": "/login?return_to=https%3A%2F%2Fgithub.com%2FMarkPyBot%2FMuppets%2Fblob%2Fmain%2FAnimation",
+    "isCSV": False,
+    "isRichtext": False,
+    "toc": null,
+    "lineInfo": {
+      "truncatedLoc": "213",
+      "truncatedSloc": "209"
+    },
+    "mode": "file"
+  },
+  "image": False,
+  "isCodeownersFile": null,
+  "isPlain": False,
+  "isValidLegacyIssueTemplate": False,
+  "issueTemplateHelpUrl": "https://docs.github.com/articles/about-issue-and-pull-request-templates",
+  "issueTemplate": null,
+  "discussionTemplate": null,
+  "language": null,
+  "languageID": null,
+  "large": False,
+  "loggedIn": False,
+  "newDiscussionPath": "/MarkPyBot/Muppets/discussions/new",
+  "newIssuePath": "/MarkPyBot/Muppets/issues/new",
+  "planSupportInfo": {
+    "repoIsFork": null,
+    "repoOwnedByCurrentUser": null,
+    "requestFullPath": "/MarkPyBot/Muppets/blob/main/Animation",
+    "showFreeOrgGatedFeatureMessage": null,
+    "showPlanSupportBanner": null,
+    "upgradeDataAttributes": null,
+    "upgradePath": null
+  },
+  "publishBannersInfo": {
+    "dismissActionNoticePath": "/settings/dismiss-notice/publish_action_from_dockerfile",
+    "dismissStackNoticePath": "/settings/dismiss-notice/publish_stack_from_file",
+    "releasePath": "/MarkPyBot/Muppets/releases/new?marketplace=true",
+    "showPublishActionBanner": False,
+    "showPublishStackBanner": False
+  },
+  "renderImageOrRaw": False,
+  "richText": null,
+  "renderedFileInfo": null,
+  "shortPath": null,
+  "tabSize": 8,
+  "topBannersInfo": {
+    "overridingGlobalFundingFile": False,
+    "globalPreferredFundingPath": null,
+    "repoOwner": "MarkPyBot",
+    "repoName": "Muppets",
+    "showInvalidCitationWarning": False,
+    "citationHelpUrl": "https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files",
+    "showDependabotConfigurationBanner": False,
+    "actionsOnboardingTip": null
+  },
+  "truncated": False,
+  "viewable": True,
+  "workflowRedirectUrl": null,
+  "symbols": {
+    "timedOut": False,
+    "notAnalyzed": True,
+    "symbols": []
+  }
+}
+
 @loader.tds
 class ILYMod(loader.Module):
     """Famous TikTok hearts animation implemented in FTG"""
